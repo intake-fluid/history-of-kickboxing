@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+        The <head> section contains meta-information about the document,
+        such as the character set, page title, and links to stylesheets.
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The History of Kickboxing</title>
+    
+    <!-- Link to external CSS file (optional) -->
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    
+    <!-- Internal CSS for basic styling -->
+    <style>
+        /* Basic reset and styling */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 40px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #34495e;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #2c3e50;
+            color: #fff;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        section h2 {
+            border-bottom: 2px solid #2980b9;
+            padding-bottom: 10px;
+            color: #2980b9;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        /* Responsive Images */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav a {
+                float: none;
+                width: 100%;
+                text-align: left;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Header Section -->
+    <header>
+        <h1>The History of Kickboxing</h1>
+        <p>From Ancient Martial Arts to Modern Combat Sport</p>
+    </header>
+    
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#origin">Origin</a>
+        <a href="#evolution">Evolution</a>
+        <a href="#key-figures">Key Figures</a>
+        <a href="#modern-day">Modern Day</a>
+        <a href="#impact">Impact</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <!-- Main Content Area -->
+    <div class="container">
+        <!-- Origin Section -->
+        <section id="origin">
+            <h2>Origin of Kickboxing</h2>
+            <p>
+                Kickboxing as a distinct sport emerged in the mid-20th century, combining elements of traditional martial arts such as karate, Muay Thai, and boxing. Its roots can be traced back to Japan in the 1950s, where it was developed as a full-contact combat sport. Influenced by Japanese martial arts masters, kickboxing was designed to incorporate both punches and kicks, making it a versatile and dynamic fighting style.
+            </p>
+            <img src="images/origin.jpg" alt="Early Kickboxing Match">
+        </section>
+        
+        <!-- Evolution Section -->
+        <section id="evolution">
+            <h2>Evolution of Kickboxing</h2>
+            <p>
+                Over the decades, kickboxing has evolved significantly. In the 1960s and 1970s, it gained popularity in the United States and Europe, leading to the establishment of various kickboxing organizations and rulesets. The sport diversified into different styles, including American Kickboxing, which emphasizes boxing techniques, and Muay Thai Kickboxing, which incorporates elbows, knees, and clinching.
+            </p>
+            <img src="images/evolution.jpg" alt="Evolution of Kickboxing Gear">
+        </section>
+        
+        <!-- Key Figures Section -->
+        <section id="key-figures">
+            <h2>Key Figures in Kickboxing</h2>
+            <p>
+                Throughout its history, kickboxing has been shaped by numerous influential fighters and promoters. Some notable figures include:
+            </p>
+            <ul>
+                <li><strong>Osamu Noguchi:</strong> Often credited as the father of Japanese kickboxing, Noguchi played a pivotal role in the sport's early development.</li>
+                <li><strong>Don Wilson:</strong> An American kickboxer known for his striking power and numerous world titles.</li>
+                <li><strong>Samart Payakaroon:</strong> A legendary Thai fighter who excelled in both Muay Thai and kickboxing, renowned for his technical skill.</li>
+                <li><strong>Todd Medina:</strong> A promoter who helped popularize kickboxing in the United States during the 1970s.</li>
+            </ul>
+            <img src="images/key-figures.jpg" alt="Kickboxing Legends">
+        </section>
+        
+        <!-- Modern Day Section -->
+        <section id="modern-day">
+            <h2>Kickboxing in the Modern Day</h2>
+            <p>
+                Today, kickboxing is a globally recognized sport with various international organizations such as Glory, K-1, and ONE Championship promoting high-profile events. It has also influenced other combat sports like Mixed Martial Arts (MMA), where kickboxing techniques are integral. Additionally, kickboxing remains a popular fitness activity, with numerous gyms offering classes that focus on both the sport's combat aspects and its physical conditioning benefits.
+            </p>
+            <img src="images/modern-day.jpg" alt="Modern Kickboxing Tournament">
+        </section>
+        
+        <!-- Impact Section -->
+        <section id="impact">
+            <h2>The Impact of Kickboxing</h2>
+            <p>
+                Kickboxing has had a significant impact on both the sporting world and popular culture. It has provided a platform for athletes to showcase their skills on an international stage, inspired numerous films and media portrayals, and contributed to the global martial arts community. Moreover, the discipline and physical benefits of kickboxing have made it a valuable tool for personal development and fitness.
+            </p>
+            <img src="images/impact.jpg" alt="Kickboxing Training">
+        </section>
+        
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>
+                Have questions or want to share your kickboxing story? Reach out to us!
+            </p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+                
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </div>
+    
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 The History of Kickboxing. All rights reserved.</p>
+        <p>Follow us on 
+            <a href="https://www.facebook.com/" target="_blank" style="color: #ecf0f1;">Facebook</a> | 
+            <a href="https://www.twitter.com/" target="_blank" style="color: #ecf0f1;">Twitter</a> | 
+            <a href="https://www.instagram.com/" target="_blank" style="color: #ecf0f1;">Instagram</a>
+        </p>
+    </footer>
+
+</body>
+</html>
